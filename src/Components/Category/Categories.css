@@ -1,0 +1,117 @@
+.categories{
+    width: 100%;
+    height: 400px;
+}
+.categories-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.categories-heading{
+    color: var(--Neutral-Grey-900, #3C3D3D);
+    padding-top: 120px;
+}
+.see-more{
+    padding-top: 120px;
+}
+.see-more-btn{
+    width: 150px;
+    height: 60px;
+    background: #FFF;
+    color: #01A3E0;
+    border: 2px solid #F5F6F6;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.see-more-icon{
+    color: #01A3E0;
+}
+.see-more-btn:hover{
+    background-color: rgb(230, 230, 250);
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    background: #FFF;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 35px;
+    padding-top: 20px;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    background: #FFF;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 35px;
+}
+.first-content{
+    width: 500px;
+    height: 100px;
+    border: 2px solid #F5F6F6;
+    margin-top: 20px;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+}
+.second-content{
+    width: 500px;
+    height: 100px;
+    border: 2px solid #F5F6F6;
+    margin-top: 20px;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+}
+.third-content{
+    width: 500px;
+    height: 100px;
+    border: 2px solid #F5F6F6;
+    margin-top: 20px;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+}
+.icon-box{
+    width: 60px;
+    height: 60px;
+    background: #d7f0f8;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+.category-icon{
+    width: 25px;
+    height: 25px;
+    color: #01A3E0;
+    margin-left: 18px;
+}
+.category-content{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.category-title{
+    color: var(--Neutral-Grey-900, #3C3D3D);
+    font-size: 18px;
+    
+}
+.category-description{
+    color: rgb(107, 109, 111);
+    font-size: 14px;
+}

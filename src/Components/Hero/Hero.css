@@ -1,0 +1,135 @@
+.hero-container{
+    margin-top: 170px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;   
+}
+.tick-icon{
+    width: 24px;
+    height: 24px;
+    background: #01A3E0;
+    color: #FFF;
+    border-radius: 100%;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+}
+.title-content{
+    display: flex;
+    gap: 10px;
+}
+.title{
+    font-size: 16px;
+    margin-top: 3px;
+}
+.heading{
+    margin-top: 20px;
+}
+span{
+    padding: 8px;
+}
+.description{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.description p{
+    flex-basis: 48%;
+    padding: 8px;
+}
+.search-box{
+    width: 800px;
+    height: 90px;
+    background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+.search-items-input{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.first-input{
+    position: relative;
+    
+}
+.search-icon{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 25px;   
+}
+.job-title-input{
+    width: 290px;
+    height: 70px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+}
+.second-input{
+    position: relative;
+}
+.location-input{
+    width: 290px;
+    height: 70px;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+.location-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 25px;   
+}
+.search-job-btn{
+    width: 150px;
+    height: 60px;
+    background: #01A3E0;
+    font-size: 16px;
+    color: #FFF;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.search-job-btn:hover{
+    background-color: rgb(33, 33, 110);
+}
+input:focus{
+    border: 1px solid black;
+}
+.hero-left-text{
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.hero-left-text span{
+    color: black;
+}
+.hero-left-text p{
+    color: rgb(107, 109, 111);
+}
+.hero-right{
+    display: flex;
+}
+.card{
+    width: 120px;
+    height: 120px;
+    background: #F5F6F6;
+    border-radius: 16px;
+    margin-left: -320px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+.job-icon{
+    margin-top: 10px;
+}
+
